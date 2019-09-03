@@ -7,25 +7,6 @@ $ ./s3info.py -h\
 usage: s3info.py [-h] [-t STORAGE_TYPE] [-b BUCKET_NAME] [-r REGIONS]\
                  [-p PREFIX] [-d DISPLAY_SIZE] -o OUTFILE\
 \
-optional arguments:\
-  -h, --help            show this help message and exit\
-  -t STORAGE_TYPE, --storage_type STORAGE_TYPE\
-                        Filter by storage type (STANDARD, STANDARD_IA,\
-                        INTELLIGENT_TIERING, ONEZONE_IA, GLACIER,\
-                        DEEP_ARCHIVE)\
-  -b BUCKET_NAME, --bucket_name BUCKET_NAME\
-                        Filter by bucket name\
-  -r REGIONS, --regions REGIONS\
-                        Filter by region, separated by comma\
-  -p PREFIX, --prefix PREFIX\
-                        Filter by prefix, ex:\
-                        s3://mybucket/Folder/SubFolder/log\
-  -d DISPLAY_SIZE, --display_size DISPLAY_SIZE\
-                        Display size: B, KB, MB, TB. Default: Bytes\
-  -o OUTFILE, --outfile OUTFILE\
-                        Output results to file\
-\
-\
 \
 \
 $ ./s3info.py -o s3_results\
